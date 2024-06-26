@@ -239,91 +239,75 @@ class Data {
 
     Lawyers = {
       
-      concord: [
+      continental: [
                     {
-                        image: "2.jpg",
-                        name: "John",
-                        surname: "Ramdjanbeg",
-                        city: "Berlin",
-                        email: "john.ramdjanbeg@concord-services.net"
+                      image: "1.jpeg",
+                      name: "Andreas",
+                      surname: "Rossi",
+                      city: "Paris",
+                      email: "Andreas.Rossi@continentalcounselors.com"
                     },
                     {
-                        image: "2beee6e5be8bd4601203b5bb51fa0af9.jpg",
-                        name: "Yusuf",
-                        surname: "Sarikaya",
-                        city: "Athens",
-                        email: "yusuf.sarikaya@concord-services.net"
-                    },
-                    {
-                        image: "5454.jpg",
-                        name: "Luke",
-                        surname: "Lambell",
-                        city: "London",
-                        email: "luke.lambell@concord-services.net"
-                    },
-                    {
-                        image: "arturas_liutvinas.jpg",
-                        name: "Artūras",
-                        surname: "Liutvinas",
-                        city: "Berlin",
-                        email: "arturas.liutvinas@concord-services.net"
-                    },
-                    {
-                        image: "6.jpg",
-                        name: "Neill",
-                        surname: "Blundell",
-                        city: "London",
-                        email: "neill.blundell@concord-services.net"
-                    },
-                    {
-                        image: "7.jpg",
-                        name: "Daniel",
-                        surname: "Delannoy",
-                        city: "Amsterdam",
-                        email: "daniel.delannoy@concord-services.net"
-                    },
-                    {
-                        image: "d6183b97d50087e1bd01a60315b11b84.png",
-                        name: "James",
-                        surname: "Stewart",
-                        city: "London",
-                        email: "james.stewart@concord-services.net"
-                    },
-                    {
-                        image: "BLACKBURN.jpg",
-                        name: "Alexander",
-                        surname: "Blackburn",
-                        city: "London",
-                        email: "alexander.blackburn@concord-services.net"
-                    },
-                    {
-                        image: "e3rr45gji45.jpeg",
-                        name: "Agnes",
-                        surname: "Aldenhoven",
-                        city: "Amsterdam",
-                        email: "agnes.aldenhoven@concord-services.net"
-                    },
-                    {
-                      image: "IMG_0638.JPG",
-                      name: "Batur",
-                      surname: "Dimou",
-                      city: "Athens",
-                      email: "batur.dimou@concord-services.net"
-                    },
-                    {
-                      image: "udo_schneider.jpeg",
-                      name: "Udo",
-                      surname: "Schneider",
-                      city: "Berlin",
-                      email: "udo.schneider@concord-services.net"
-                    },
-                    {
-                      image: "5.jpg",
-                      name: "Erik",
-                      surname: "Barnett",
+                      image: "2.jpeg",
+                      name: "Howard",
+                      surname: "Johnson",
                       city: "London",
-                      email: "udo.schneider@concord-services.net"
-                    },
+                      email: "Howard.Johnson@continentalcounselors.com"
+                  },
+                  {
+                    image: "3.png",
+                    name: "Erik",
+                    surname: "Barnett",
+                    city: "Berlin",
+                    email: "Erik.Barnett@continentalcounselors.com"
+                  },
+                  {
+                    image: "4.jpeg",
+                    name: "Donald",
+                    surname: "Brown",
+                    city: "Berlin",
+                    email: "Donald.Brown@continentalcounselors.com"
+                  },
+                  {
+                    image: "5.jpeg",
+                    name: "Leone",
+                    surname: "Mattioni",
+                    city: "Berlin",
+                    email: "Leone.Mattioni@continentalcounselors.com"
+                  },
+                  {
+                    image: "6.jpg",
+                    name: "James",
+                    surname: "Stewart",
+                    city: "Berlin",
+                    email: "James.Stewart@continentalcounselors.com"
+                  },
+                  {
+                    image: "7.jpg",
+                    name: "John",
+                    surname: "Sarikaya",
+                    city: "Berlin",
+                    email: "John.Sarikaya@continentalcounselors.com"
+                  },
+                  {
+                    image: "8.jpg",
+                    name: "Andrew",
+                    surname: "Rogers",
+                    city: "Berlin",
+                    email: "Andrew.Rogers@continentalcounselors.com"
+                  },
+                  {
+                    image: "9.jpg",
+                    name: "Ian",
+                    surname: "Vincent",
+                    city: "Berlin",
+                    email: "Ian.Vincent@continentalcounselors.com"
+                  }
+
+
+
+
+                   
 
     ],
     likewood: [

@@ -26,7 +26,7 @@ eval("/*!\n * Toastify js 1.12.0\n * https://github.com/apvarun/toastify-js\n * 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_utils_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/utils/utils */ \"./src/js/modules/utils/utils.js\");\n\r\n\r\n\r\nwindow.addEventListener(\"DOMContentLoaded\", () => {\r\n   try{\r\n        _modules_utils_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"].handleSubmit();\r\n\r\n   }catch(e){\r\n        console.log(\"Error in main contacts js\");\r\n   }\r\n})\n\n//# sourceURL=webpack://lawbridge/./src/js/contacts.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_utils_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/utils/utils */ \"./src/js/modules/utils/utils.js\");\n\n\n\nwindow.addEventListener(\"DOMContentLoaded\", () => {\n   try{\n        _modules_utils_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"].handleSubmit();\n\n   }catch(e){\n        console.log(\"Error in main contacts js\");\n   }\n})\n\n//# sourceURL=webpack://lawbridge/./src/js/contacts.js?");
 
 /***/ }),
 
