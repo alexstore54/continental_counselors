@@ -1,0 +1,94 @@
+.services_bg-img-container {
+    height: 350px;
+    width: 100%;
+    
+    position: relative;
+    
+}
+  .services_bg-img-container::after {
+  
+    content: ''; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Устанавливаем абсолютную позицию */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/lou-levit-B4op5oZ4x5Q-unsplash.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.7); /* Пример фильтра (превращение в черно-белое изображение) */
+    z-index: -1; 
+}
+  .services-container {
+    /* background-image: linear-gradient(to bottom, #2c4a52, #35535a, #3f5d62, #49666a, #537072); */
+    background-color: var(--light-blue);
+    padding: 100px 0;
+    
+  }
+
+.services-titles {
+    overflow-x: scroll;
+    padding: 8px 0; 
+}
+.serive-title-item {
+  font-size: 20px;
+  border: 1px solid var(--additional);
+  border-radius: 5px;
+  padding: 10px;
+  transition: all .1s ease-in-out;
+  color: var(--primary);
+  background-color: white;
+  min-width: 45%;
+}
+
+.services-content {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--dark);
+}
+
+.services-content-container {
+    background-color: #ffffff;
+}
+
+.serive-title-item.active {
+  border: 1px solid var(--primary);
+  color: #fff;
+  background-color: var(--primary);
+  transform: translateX(8px);
+}
+.serive-title-item-arrow i {
+  color: var(--dark-blue);
+}
+.serive-title-item-arrow.active i {
+  color: #fff;
+}
+
+@media(hover: hover){
+    .serive-title-item:hover {
+        cursor: pointer;
+        transform: translateX(8px);
+    }
+}
+@media (max-width: 991px) {
+    .serive-title-item.active {
+        transform: translateY(8px);
+    }
+    .serive-title-item-arrow  {
+        transform: rotate(90deg);
+    }
+    .services-content {
+        min-height: 500px;
+    }
+    .serive-title-item-text {
+        font-size: 1rem !important;
+    }
+   
+}
+
+@media(min-width: 992px){
+    .services-titles {
+        overflow-x: visible;
+    }
+}
+

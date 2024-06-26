@@ -1,0 +1,8 @@
+/client/node_modules/
+/server/node_modules/
+/server/static/
+/client/LawBridge_Associates/
+
+.DS_Store
+
+

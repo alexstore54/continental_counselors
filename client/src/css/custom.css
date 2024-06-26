@@ -1,0 +1,610 @@
+
+/*----------Preloader-----------*/
+/*------------------------------*/
+.custom_spinner_preload-container {
+  min-height: 450px;
+  display: flex;
+}
+
+
+
+
+.lds-facebook {
+  /* change color here */
+  color: var(--light);
+}
+.lds-facebook,
+.lds-facebook div {
+  box-sizing: border-box;
+}
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: currentColor;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0s;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+
+/*----------Preloader-----------*/
+/*------------------------------*/
+
+/*----------------------------------------*/
+/*----------Lawbridge insights-----------*/
+  
+#section-news-container {
+  flex: 1;
+}
+
+
+/*----------Lawbridge insights-----------*/
+/*---------------------------------------*/
+
+  /*--------------Services---------------*/
+ /*--------------------------------------*/
+
+ 
+
+ /*--------------------------*/
+  .services_bg-img-container {
+    height: 350px;
+    width: 100%;
+    
+    position: relative;
+    
+}
+  .services_bg-img-container::after {
+  
+    content: ''; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Устанавливаем абсолютную позицию */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/lou-levit-B4op5oZ4x5Q-unsplash.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.7); /* Пример фильтра (превращение в черно-белое изображение) */
+    z-index: -1; 
+}
+  
+  .services_bg-img-container .main-title,
+  .contact_bg-img-container .main-title,
+  .about_bg-img-container .main-title,
+  .lawyers_bg-img-container .main-title {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+    font-size: 5rem;
+  }
+  
+
+  
+
+/* Определение ключевых кадров анимации */
+@keyframes fadeOut {
+  0% {
+    opacity: 1; /* Начальная непрозрачность */
+  }
+  100% {
+    opacity: 0; /* Конечная непрозрачность (полностью прозрачный) */
+  }
+  }
+
+  /* Применение анимации к элементу */
+  .element-to-fade {
+    animation: fadeOut 0.5s ease-in-out; /* Название анимации, продолжительность и функция плавности */
+  }
+
+
+  @keyframes fadeIn {
+    0% {
+      transform: translateY(100%);
+      opacity: 0; /* Начальная непрозрачность */
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1; /* Конечная непрозрачность (полностью прозрачный) */
+    }
+    }
+  
+    /* Применение анимации к элементу */
+    .element-to-fadeIn {
+      animation: fadeIn 0.5s ease-in-out; /* Название анимации, продолжительность и функция плавности */
+    }
+  /*--------------Services---------------*/
+ /*--------------------------------------*/
+
+
+
+ /*--------------Contact Us---------------*/
+ /*--------------------------------------*/
+ 
+ .contact-form-home-inputs {
+    background-color: var(--bs-light);
+    border-radius: 2%;
+ }
+ .contact-form-home {
+      height: 500px;
+      position: relative;
+  }
+ .contact-form-home-parallax-img {
+    background-image: url(../img/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.5);
+ }
+
+ 
+.contact-form-home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+ 
+.contact-content {
+  width: 100%;
+  
+}
+.content-form-call-to-action-text {
+  font-size: 3rem;
+  color: #fff;
+  user-select: none;
+}
+ .contact_bg-img-container,
+ .about_bg-img-container {
+  height: 450px;
+  width: 100%;
+  
+  position: relative;
+  
+}
+
+.contact-content_inner-container {
+  
+  background-color: var(--secondary);
+  color: #fff;
+  
+}
+
+.contact-content_mapTitle {
+  font-size: 30px;
+}
+.contact-content_mapAddress {
+  font-size: 20px;
+}
+.fa-solid {
+  color: var(--danger);
+}
+.fa-triangle-exclamation {
+  color: #dc3545;
+  font-size: 20px;
+}
+.fa-square-check {
+    color: #28a745;
+    font-size: 20px;
+}
+.btn_subm_custom {
+  padding: 10px 18px;
+  font-size: 20px;
+  transition: all .1s !important;
+  background-color: var(--light);
+  border-radius: 0;
+  border: none;
+}
+.btn_subm_custom:hover {
+  filter: contrast(0.85);
+}
+
+.btn_subm_custom.loading {
+  background-color: var(--extra-light-blue);
+  border: 2px solid var(--info);
+}
+
+
+.btn_subm_custom:focus, .btn_subm_custom:active {
+  box-shadow: none !important;
+}
+
+.btn_subm_custom i {
+  font-size: 22px;
+}
+.fa-spin_custom {
+  display: none;
+}
+
+
+
+.custom_toast-container {
+  top: 5%;
+  right: 2%;
+  z-index: 999999;
+}
+
+.toast_title {
+  font-size: 15px;
+  
+}
+
+.toast_title-red {
+  color: #dc3545;
+}
+.toast_title-green {
+  color: #28a745;
+}
+
+.toast {
+  background-color: rgba(255, 255, 255, 0.96);
+  flex-basis: 250px;
+}
+.contact_bg-img-container::after {
+
+  content: ''; /* Создаем пустой контент для псевдоэлемента */
+  position: absolute; /* Устанавливаем абсолютную позицию */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 43% left 0%;
+  filter: brightness(0.6); /* Пример фильтра (превращение в черно-белое изображение) */
+  z-index: -1; 
+}
+
+.about_bg-img-container::after {
+  content: ''; /* Создаем пустой контент для псевдоэлемента */
+  position: absolute; /* Устанавливаем абсолютную позицию */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/jez-timms-8muUTAmcWU4-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 50% left 0%;
+  filter: brightness(0.8); /* Пример фильтра (превращение в черно-белое изображение) */
+  z-index: -1; 
+}
+
+.map-container {
+  border-radius: 10px;
+  
+}
+.contact-content_inner-container {
+  border-radius: 10px;
+}
+
+
+.form-control {
+  transition: box-shadow .08s;
+  border: 1px solid var(--primary);
+}
+
+
+.form-control:focus {
+    border: 1px solid var(--primary);
+    box-shadow: 0 0 0 0.25rem rgba(92, 70, 156, 0.15) !important;
+
+}
+@media (max-width: 560px) {
+  .services_bg-img-container,
+  .contact_bg-img-container,
+  .about_bg-img-container {
+    height: 220px;
+  }
+  .services_bg-img-container .main-title,
+  .contact_bg-img-container .main-title,
+  .about_bg-img-container .main-title,
+  .lawyers_bg-img-container .main-title 
+  {
+    font-size: 45px;
+  }
+  .serive-title-item {
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 300;
+  }
+  .services-content {
+    font-size: 18px;
+    font-weight: 300;
+  
+  }
+  
+}
+
+@media(max-width: 991px){
+  .content-form-call-to-action-text {
+    font-size: 2rem;
+  }
+  .contact-content_mapTitle {
+    font-size: 25px;
+  }
+  .contact-content_mapAddress {
+    font-size: 18px;
+  }
+}
+
+
+
+
+/*-------------------About Us-----------------*/
+/*--------------------------------------------*/
+
+.about_us-tabs-container {
+  background-color: var(--semi-dark-blue);  
+  font-size: 25px;
+  color: #fff;
+  
+}
+.about_us-tab {
+  color: var(--additional);
+  
+  background-color: var(--secondary);
+  transition: all .3s;
+}
+.about_us-tab.active {
+  background-color: var(--dark);
+ 
+}
+.about_us-tab:hover {
+  cursor: pointer;
+}
+#about_us-content {
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: var(--dark);
+}
+
+
+
+/*------------------Lawyers-------------------*/
+/*--------------------------------------------*/
+.lawyers_bg-img-container {
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+.lawyers_bg-img-container::after {
+    content: ''; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Устанавливаем абсолютную позицию */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/ben-rosett-WdJkXFQ4VHY-unsplash.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.7); /* Пример фильтра (превращение в черно-белое изображение) */
+    z-index: -1; 
+
+}
+
+
+
+.lawyer-card_container {
+  position: relative;
+  max-width: 300px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+
+}
+
+.lawyer-card_container::before, .lawyer-card_container::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px; 
+  transition: 0.3s ease-in-out;
+}
+.lawyer-card_container::before {
+  top: -5px;
+  left: -5px;
+  border-top: 1.5px solid var(--dark);
+  border-left: 1.5px solid var(--dark);
+}
+.lawyer-card_container::after {
+  right: -5px;
+  bottom: -5px;
+  border-bottom: 1.5px solid var(--dark);
+  border-right: 1.5px solid var(--dark);
+}
+
+
+.lawyer-info_container {
+  font-family: 'Lora', 'Times New Roman', 'Times', serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 7px;
+  flex-direction: column;
+}
+
+
+
+.lawyer-info_container .lawyer-name{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.img-lawyer-card_container {
+  overflow: hidden;
+  max-width: 300px;
+  max-height: 300px;
+  
+}
+.img-lawyer-card_container img
+{
+  width: 100%;
+}
+
+.lawyer-email {
+  position: relative;
+  z-index: 10;
+}
+
+.lawyer-email {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  transition: .1s;
+}
+.lawyer-email:hover {
+  color: var(--info);
+}
+
+.lawyer-email::before {
+  content: '';
+  bottom: -1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  background-color: var(--primary);
+  transition: .3s;
+  transform: scaleX(0);
+}
+.lawyer-email:hover:before {
+  width: 100%;
+  transform: scaleX(1.0);
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .contact-form-home {
+    height: 100vh;
+  }
+  .content-form-call-to-action-text {
+    font-size: 1.5rem;
+  }
+  .lawyers_bg-img-container .main-title {
+    font-size: 3rem;
+  }
+  .lawyers_video-container #lawyers_video-pc {
+    display: none;
+  }
+  .lawyers_video-container #lawyers_video-modile  {
+      display: block;
+      transform: scale(0.7);
+      margin-top: -654px;
+      margin-left: -259px;
+  }
+  
+}
+
+
+
+@media  screen and (min-width:1920px) {
+  .lawyers_video-container #lawyers_video-pc {
+    object-fit:0;
+    
+    width: 100%;
+}
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .lawyers_video-container #lawyers_video-pc {
+    transform: scale(0.8);
+    margin-top: -132px;
+    margin-left: -653px;
+  }
+  
+  .img-lawyer-card_container {
+      max-height: 240px;
+  }
+  .lawyer-card_container {
+      height: 400px;  
+  }
+
+  .likewood-img-lawyer-card_container {
+    max-height: 220px;
+}
+
+}
+
+
+@media screen and (min-width: 1200px) {
+  .img-lawyer-card_container {
+      max-height: 300px;
+      max-width: 300px;
+  }
+  .likewood-img-lawyer-card_container {
+      max-height: 250px;
+  }
+ 
+}
+
+.lawyer-card_content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: none;
+}
+
+
+@media(hover: hover) {
+  .lawyer-card_container:hover::before, .lawyer-card_container:hover::after {
+    width: calc(100% + 9px);
+    height: calc(100% + 9px);
+  }
+}
+@media(hover: none) {
+  .lawyer-card_content:active::before {
+    display: block;
+}
+}
+
+
+
+
+
